@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c760c4a422c1e419dcb702ae59b293, type: 3}
+  m_Name: Tomato
+  m_EditorClassIdentifier: 
+  cropType: 2
+  plantCost: 25
+  harvestValue: 60
+  growthTimeStage1: 30
+  growthTimeStage2: 50
+  visuals:
+  - mesh: {fileID: 2146881098140090305, guid: 585914ed55e87f5458f147717dbbd8f3, type: 3}
+    materialInstanced: {fileID: 2100000, guid: 81222858044117042a8adf4c4a259dc4, type: 2}
+    materialFallback: {fileID: 2100000, guid: c6087bd35e9b2474ea37a8cd1e571e1b, type: 2}
+  - mesh: {fileID: 9136303811235517900, guid: 09ecf5c985c5d2048b8c68f5c5132bdf, type: 3}
+    materialInstanced: {fileID: 2100000, guid: c70b9280984f6fb4ba643770dc7c9852, type: 2}
+    materialFallback: {fileID: 2100000, guid: 1ee63622a7c5d064b952080c7c14e309, type: 2}
+  - mesh: {fileID: 1209355075583126759, guid: 3debbf8835f6fa34ca66e183752e35e1, type: 3}
+    materialInstanced: {fileID: 2100000, guid: afc0952f88ac48f49b3f0857f906c583, type: 2}
+    materialFallback: {fileID: 2100000, guid: e8927b02a0348d342822555d999e9179, type: 2}
